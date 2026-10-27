@@ -1,0 +1,6 @@
+<div class="card" id="lead"><span class="tag">Free · no obligation</span><h3>{{ include.title }}</h3><p>{{ include.sub }}</p>
+<form data-form="Lead — {{ include.source }}" id="resultLead" style="margin-top:12px"><div class="hp"><input name="_honey" tabindex="-1" autocomplete="off"></div><input type="hidden" name="source" value="{{ include.source }}"><input type="hidden" name="calculation" value="">
+<div class="f"><label for="ln-{{ include.source }}">Name</label><input id="ln-{{ include.source }}" name="name" required autocomplete="name"></div>
+<div class="f"><label for="le-{{ include.source }}">Email</label><input id="le-{{ include.source }}" type="email" name="email" required autocomplete="email"></div>
+<div class="f"><label for="lg-{{ include.source }}">I want help with</label><select id="lg-{{ include.source }}" name="goal"><option>Business funding / loans</option><option>Growing revenue & pricing</option><option>Building a website or AI tool</option><option>Buying or selling a website/domain</option><option>Personal finance planning</option></select></div>
+<label class="check"><input type="checkbox" name="consent" value="yes" required> <span>I agree to be contacted about my request and accept the privacy policy.</span></label><button class="btn btn-teal btn-block" type="submit">Send me my free plan</button><p class="form-msg"></p></form></div>

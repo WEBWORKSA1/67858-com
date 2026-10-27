@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.full_title | escape }}</title>
+<meta name="description" content="{{ page.description | escape }}">
+<link rel="canonical" href="{{ page.canonical }}">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0d1321">
+<meta property="og:type" content="website"><meta property="og:site_name" content="67858.com">
+<meta property="og:title" content="{{ page.title | escape }}"><meta property="og:description" content="{{ page.description | escape }}">
+<meta property="og:url" content="{{ page.canonical }}"><meta property="og:image" content="https://67858.com/assets/img/og.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<link rel="icon" href="{{ page.r }}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="{{ page.r }}site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Sora:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ page.r }}assets/css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+
+</head>
+<body{% if page.nocta %} data-nocta{% endif %}>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website/domain name/Sponsorship/Advertisement/Partnership</a></div>
+<header class="site-head"><div class="wrap nav">
+<a class="brand" href="{{ page.r }}index.html" aria-label="67858.com home"><span class="logo">678<br>58</span><span>67858.com<small>Number & Money Lab</small></span></a>
+<ul class="menu" id="menu"><li><a href="{{ page.r }}calculators.html"{% if page.active == "calculators.html" %} aria-current="page"{% endif %}>Calculators</a></li><li><a href="{{ page.r }}number-lab.html"{% if page.active == "number-lab.html" %} aria-current="page"{% endif %}>Number Lab</a></li><li><a href="{{ page.r }}guides.html"{% if page.active == "guides.html" %} aria-current="page"{% endif %}>Guides</a></li><li><a href="{{ page.r }}videos.html"{% if page.active == "videos.html" %} aria-current="page"{% endif %}>Videos</a></li><li><a href="{{ page.r }}contests.html"{% if page.active == "contests.html" %} aria-current="page"{% endif %}>Contests</a></li><li><a href="{{ page.r }}support.html"{% if page.active == "support.html" %} aria-current="page"{% endif %}>Support Us</a></li><li><a class="cta" href="{{ page.r }}get-a-plan.html">Free Growth Plan</a></li></ul>
+<button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+<button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">◐</button>
+</div></header>
+<main id="main">
+{{ content }}
+</main>
+<footer class="site-foot"><div class="wrap">
+<div class="foot-grid">
+<div><a class="brand" href="{{ page.r }}index.html" style="color:#fff"><span class="logo">678<br>58</span><span>67858.com<small style="color:#9aa3b5">Number & Money Lab</small></span></a>
+<p style="margin-top:14px;font-size:.92rem">Free calculators, number intelligence and plain-English guides that help people and businesses make better money decisions.</p>
+<form data-form="Newsletter" data-ok="You're in. Watch your inbox for the weekly Numbers Brief." style="display:flex;gap:8px;flex-wrap:wrap">
+<div class="hp"><input name="_honey" tabindex="-1" autocomplete="off"></div>
+<input type="email" name="email" required placeholder="Email for the weekly Numbers Brief" aria-label="Email" style="flex:1;min-width:180px;padding:10px 12px;border-radius:10px;border:1px solid #2a3348;background:#111827;color:#fff">
+<button class="btn btn-gold" type="submit" style="padding:10px 14px">Subscribe</button><p class="form-msg" style="width:100%;margin:0"></p></form></div>
+<div><h4>Tools</h4><ul><li><a href="{{ page.r }}calculators.html">All calculators</a></li><li><a href="{{ page.r }}calculators.html#money">Money & loans</a></li><li><a href="{{ page.r }}calculators.html#business">Business</a></li><li><a href="{{ page.r }}calculators.html#web-ai">Websites & AI</a></li><li><a href="{{ page.r }}number-lab.html">Number Lab</a></li></ul></div>
+<div><h4>Learn</h4><ul><li><a href="{{ page.r }}guides.html">Guides</a></li><li><a href="{{ page.r }}videos.html">Video library</a></li><li><a href="{{ page.r }}glossary.html">Glossary</a></li><li><a href="{{ page.r }}guides/what-does-6-7-mean.html">What does 6-7 mean?</a></li></ul></div>
+<div><h4>Get involved</h4><ul><li><a href="{{ page.r }}get-a-plan.html">Free growth plan</a></li><li><a href="{{ page.r }}contests.html">Contests & prizes</a></li><li><a href="{{ page.r }}support.html">Support / donate</a></li><li><a href="{{ page.r }}careers.html">Careers & talent</a></li><li><a href="{{ page.r }}advertise.html">Advertise & sponsor</a></li></ul></div>
+<div><h4>Company</h4><ul><li><a href="{{ page.r }}about.html">About</a></li><li><a href="{{ page.r }}contact.html">Contact</a></li><li><a href="{{ page.r }}editorial-policy.html">Editorial policy</a></li><li><a href="{{ page.r }}privacy.html">Privacy</a></li><li><a href="{{ page.r }}terms.html">Terms</a></li><li><a href="{{ page.r }}disclaimer.html">Disclaimer</a></li><li><a href="{{ page.r }}trademark.html">Trademark & copyright</a></li></ul></div>
+</div>
+<div class="legal">© <span data-year>2026</span> 67858.com. All rights reserved. Calculators and content are for educational purposes and are not financial, legal or tax advice. “67858” is used solely as this website's domain name and carries no claim to, or affiliation with, any third-party mark, product number, postal code or person. See our <a href="{{ page.r }}trademark.html">trademark & copyright disclosure</a>. · <a href="https://web.works/contact" target="_blank" rel="noopener">Interested in this domain or a partnership?</a></div>
+</div></footer>
+<div class="consent" id="consent" role="dialog" aria-label="Cookie notice"><p>We use cookies for essential site functions and, with Google AdSense, to show and measure ads. See our <a href="{{ page.r }}privacy.html">privacy policy</a>.</p><button class="btn btn-ghost" data-consent="essential">Essential only</button><button class="btn btn-teal" data-consent="all">Accept all</button></div>
+<a class="btn btn-gold sticky-cta" id="stickyCta" href="{{ page.r }}get-a-plan.html">📈 Get my free growth plan</a>
+<div class="modal" id="exitModal" role="dialog" aria-label="Free growth plan offer"><div class="card"><button class="x" aria-label="Close">×</button><span class="tag">Before you go</span><h3>Get a free, personalised growth & funding plan</h3><p>Answer 5 quick questions and get a plan built around your numbers — revenue, costs and goals. No cost, no obligation.</p><p style="margin-top:14px"><a class="btn btn-teal btn-block" href="{{ page.r }}get-a-plan.html">Start my free plan →</a></p></div></div>
+<script src="{{ page.r }}assets/js/main.js" defer></script>
+
+</body>
+</html>

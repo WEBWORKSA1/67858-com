@@ -1,0 +1,15 @@
+{
+  "name": "67858.com — Number & Money Lab",
+  "short_name": "67858",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d1321",
+  "theme_color": "#0d1321",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

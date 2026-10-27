@@ -1,0 +1,4 @@
+title: 67858.com
+markdown: kramdown
+exclude: [src, README.md, PROMPTS.md, "*.py"]
+include: [ads.txt]
